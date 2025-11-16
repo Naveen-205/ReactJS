@@ -5,11 +5,11 @@ export const Kerala = () => {
     return (
         <>
             <div>
-                <h2>Festivals</h2>
+                <h2 class = "bg-warning text-center p-2">Festivals</h2>
                 <Festivals />
             </div>
             <div>
-                <h2>Tourism</h2>
+                <h2 class = "bg-warning text-center p-2">Tourism</h2>
                 <Tourism />
             </div>
         </>

@@ -6,11 +6,11 @@ const Karnataka = () => {
 
         <>
             <div>
-                <h2>Cinema</h2>
+                <h2 class = "bg-warning text-center p-2">Cinema</h2>
                 <Cinema />
             </div>
             <div>
-                <h2>Traditional</h2>
+                <h2 class = "bg-warning text-center p-2">Traditional</h2>
                 <Traditional />
             </div>
 
