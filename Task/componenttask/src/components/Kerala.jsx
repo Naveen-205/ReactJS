@@ -4,12 +4,14 @@ import Tourism from "./Tourism"
 export const Kerala = () => {
     return (
         <>
+            <div class="d-flex justify-content-center align-items-center p-3"><iframe width="560" height="315" src="https://www.youtube.com/embed/JCAQiQP5sEE?si=C93dmWBH35RmYaIh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
             <div>
-                <h2 class = "bg-warning text-center p-2">Festivals</h2>
+                <h2 class="bg-warning text-center p-2 mt-4">Festivals</h2>
                 <Festivals />
             </div>
             <div>
-                <h2 class = "bg-warning text-center p-2">Tourism</h2>
+                <h2 class="bg-warning text-center p-2">Tourism</h2>
                 <Tourism />
             </div>
         </>

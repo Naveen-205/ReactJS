@@ -2,6 +2,7 @@ import Chennai from "./components/Chennai";
 import { Kerala } from "./components/Kerala";
 import Karnataka from "./components/Karnataka";
 
+
 const App = () => {
 
   return (
@@ -24,8 +25,11 @@ const App = () => {
         <h1 class="bg-dark text-white text-center p-2 mt-4 mb-4">Karnataka</h1>
         <Karnataka />
       </div>
-    </>
+    
+   </>
   )
 }
 
 export default App;
+
+ 
